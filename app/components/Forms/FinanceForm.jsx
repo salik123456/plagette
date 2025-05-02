@@ -82,7 +82,7 @@ const FinanceForm = () => {
 
           <button
             type="submit"
-            className="w-full py-2 mt-5 px-4 border border-transparent  shadow-sm text-md font-medium text-white bg-[var(--color-primary)] hover:bg-[var(--color-primary-dark)]  "
+            className="w-full py-2 mt-5 px-4 border border-transparent  shadow-sm text-md font-medium text-white bg-[var(--color-primary)]   "
           >
             SUBMIT
           </button>

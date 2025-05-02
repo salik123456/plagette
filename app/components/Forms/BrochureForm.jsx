@@ -27,7 +27,7 @@ const BrochureForm = () => {
       />
       <button
         type="submit"
-        className="bg-primary text-mobile lg:text-[20px] text-white w-full py-3  "
+        className="bg-primary cursor-pointer text-mobile lg:text-[20px] text-white w-full py-3  "
       >
         DOWNLOAD
       </button>

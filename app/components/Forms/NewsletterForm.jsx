@@ -15,7 +15,7 @@ const NewsletterForm = () => {
       />
       <button
         type="submit"
-        className="bg-[#9FD9D1] lg:text-md text-mobile  text-white px-6 py-3 w-full md:w-1/3 "
+        className="bg-[#9FD9D1] lg:text-md text-mobile cursor-pointer  text-white px-6 py-3 w-full md:w-1/3 "
       >
         SUBSCRIBE
       </button>

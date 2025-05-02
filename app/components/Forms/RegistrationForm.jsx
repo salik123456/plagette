@@ -30,7 +30,7 @@ const RegistrationForm = () => {
       />
       <button
         type="submit"
-        className="w-full bg-primary lg:text-[20px] text-mobile text-white  py-2 px-4 poppins "
+        className="w-full bg-primary cursor-pointer lg:text-[20px] text-mobile text-white  py-2 px-4 poppins "
       >
         SUBMIT
       </button>
