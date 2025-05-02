@@ -17,7 +17,7 @@ const Amenities = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="grid grid-cols-1 w-full sm:grid-cols-2 max-w-8xl mx-auto px-4 sm:pl-6 lg:pl-4 2xl:pl-8 lg:pr-0   gap-6 lg:tw-mr-0 col-span-full">
+          <div className="grid grid-cols-1 w-full sm:grid-cols-2 max-w-8xl mx-auto px-4 sm:pl-6 lg:pl-6 2xl:pl-8 lg:pr-0   gap-6 lg:tw-mr-0 col-span-full">
             <div className="flex flex-col">
               <Image
                 src="/amenities/amenityone.png"
