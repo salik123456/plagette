@@ -11,9 +11,13 @@ const PaymentPlan = () => {
           Payment Plan
         </h2>
         <div className="flex flex-col lg:flex-row gap-8 items-center">
-          <div className="grid grid-cols-1 w-full lg:gap-10 gap-4 lg:w-1/2 ">
+          <div className=" w-full  lg:w-1/2 ">
+          <div className="lg:w-[80%] text-center mx-auto lg:gap-10 gap-4 grid grid-cols-1">
+
+        
             <TextBox title="DURING CONSTRUCTION" content="60%" />
             <TextBox title="ON HANDOVER" content="40%" />
+            </div>
           </div>
 
           <div className="lg:w-1/2 relative rounded-lg overflow-hidden">

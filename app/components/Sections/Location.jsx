@@ -9,7 +9,7 @@ const LocationSection = () => {
         <h2 className="text-3xl font-bold  sm:text-4xl mb-4 text-black">
           LOCATION
         </h2>
-        <p className="mt-2 lg:text-md text-mobile 2xl:text-lg  text-black">
+        <p className="mt-2 lg:text-md text-mobile 2xl:text-lg 2xl:max-w-[63%]  text-black">
           Plagette 32 boasts an incredibly convenient location, placing you mere
           steps away from all your needs. Situated just a short 25-minute drive
           from Dubai International Airport and a mere 15-minute journey from the
@@ -18,7 +18,7 @@ const LocationSection = () => {
         </p>
       </div>
       <div className="flex lg:flex-row flex-col items-center mt-4">
-        <div className="lg:w-1/2 w-full  lg:pl-4 sm:pl-12 2xl:pl-14 lg:pr-20 ">
+        <div className="lg:w-1/2 w-full   sm:pl-12 2xl:pl-14 lg:pr-20 ">
           <div className="grid grid-cols-2 lg:text-left text-center  gap-4">
             <div>
               <h3 className="text-xl 2xl:text-[50px] font-semibold text-primary uppercase tracking-wider">

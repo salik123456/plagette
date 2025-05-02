@@ -17,8 +17,8 @@ const Amenities = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="grid grid-cols-1 sm:grid-cols-2 max-w-8xl mx-auto px-4 sm:px-6 lg:px-8  gap-6 col-span-full">
-            <div className="text-black overflow-hidden">
+          <div className="grid grid-cols-1 w-full sm:grid-cols-2 max-w-8xl mx-auto px-4 sm:pl-6 lg:pl-4 2xl:pl-8 lg:pr-0   gap-6 lg:tw-mr-0 col-span-full">
+            <div className="flex flex-col">
               <Image
                 src="/amenities/amenityone.png"
                 width={600}
@@ -26,11 +26,11 @@ const Amenities = () => {
                 alt="Kids Pool"
                 className="w-full h-full object-cover"
               />
-              <p className="mt-4 text-center font-semibold text-black">
+              <p className="mt-4 text-center  text-black">
                 KIDS&apos; POOL
               </p>
             </div>
-            <div className="text-black overflow-hidden">
+            <div className="flex flex-col">
               <Image
                 src="/amenities/amenitytwo.png"
                 width={600}
@@ -38,14 +38,14 @@ const Amenities = () => {
                 alt="Private Beach"
                 className="w-full h-full object-cover"
               />
-              <p className="mt-4 text-center font-semibold text-black">
+              <p className="mt-4 text-center  text-black">
                 PRIVATE BEACH
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 col-span-full lg:px-0 px-4 ">
-            <div className="text-black overflow-hidden ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 col-span-full lg:pl-0 lg:pr-6 px-4 ">
+            <div className="flex flex-col ">
               <Image
                 src="/amenities/amenitythree.png"
                 width={600}
@@ -53,11 +53,11 @@ const Amenities = () => {
                 alt="Restaurants"
                 className="w-full h-full object-cover"
               />
-              <p className="mt-4 text-center font-semibold text-black">
+              <p className="mt-4 text-center  text-black">
                 RESTAURANTS
               </p>
             </div>
-            <div className="text-black overflow-hidden">
+            <div className="flex flex-col">
               <Image
                 src="/amenities/amenityfour.png"
                 width={600}
@@ -65,7 +65,7 @@ const Amenities = () => {
                 alt="Family Pool"
                 className="w-full h-full object-cover"
               />
-              <p className="mt-4 text-center font-semibold text-black">
+              <p className="mt-4 text-center  text-black">
                 FAMILY POOL
               </p>
             </div>
