@@ -2,7 +2,7 @@ import React from 'react';
 
 const TextBox = ({ title, content }) => {
   return (
-    <div className="rounded-md p-6 text-center bg-white shadow-sm">
+    <div className="rounded-md p-6 text-center bg-white shadow-sm transition-all duration-300 ease-in-out hover:shadow-md hover:scale-105">
       <h3 className="text-md text-black uppercase tracking-wider">
         {title}
       </h3>

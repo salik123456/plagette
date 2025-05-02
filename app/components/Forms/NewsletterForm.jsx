@@ -13,12 +13,13 @@ const NewsletterForm = () => {
         placeholder="Email*"
         className="px-4 py-3 lg:text-md text-mobile  w-full md:w-1/3 bg-white text-[#838383]  focus:outline-none"
       />
-      <button
-        type="submit"
-        className="bg-[#9FD9D1] lg:text-md text-mobile cursor-pointer  text-white px-6 py-3 w-full md:w-1/3 "
-      >
-        SUBSCRIBE
-      </button>
+<button
+  type="submit"
+  className="bg-[#9FD9D1] lg:text-md text-mobile cursor-pointer text-white px-6 py-3 w-full md:w-1/3 transition-colors duration-300 ease-in-out hover:bg-[#69b5ad] hover:shadow-md"
+>
+  SUBSCRIBE
+</button>
+
     </form>
   );
 };

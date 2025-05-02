@@ -44,10 +44,11 @@ const HeroSection = () => {
             />
           </div>
 
-          <button className="bg-cover bg-center w-70 2xl:w-110 bg-[#91cfc84d] cursor-pointer text-white py-4 text-sm 2xl:text-md px-12 rounded-full mb-4">
-            DOWNLOAD BROCHURE
-          </button>
-          <button className="bg-cover bg-center w-70 2xl:w-110 bg-[#91cfc84d] cursor-pointer text-white py-4 text-sm 2xl:text-md px-12 rounded-full ">
+          <button className="bg-cover bg-center w-70 2xl:w-110 bg-[#91cfc84d] cursor-pointer text-white py-4 text-sm 2xl:text-md px-12 rounded-full mb-4 transition-all duration-300 ease-in-out hover:bg-[#91cfc8] hover:scale-105">
+  DOWNLOAD BROCHURE
+</button>
+
+          <button className="bg-cover bg-center w-70 2xl:w-110 bg-[#91cfc84d] cursor-pointer text-white py-4 text-sm 2xl:text-md px-12 rounded-full mb-4 transition-all duration-300 ease-in-out hover:bg-[#91cfc8] hover:scale-105">
             REGISTER NOW
           </button>
         </div>

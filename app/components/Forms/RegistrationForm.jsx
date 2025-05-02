@@ -28,12 +28,13 @@ const RegistrationForm = () => {
         rows={6}
         className="w-full lg:text-[20px] text-mobile poppins font-light    px-5 py-3 shadow-md  placeholder:text-[#838383] focus:outline-none"
       />
-      <button
-        type="submit"
-        className="w-full bg-primary cursor-pointer lg:text-[20px] text-mobile text-white  py-2 px-4 poppins "
-      >
-        SUBMIT
-      </button>
+<button
+  type="submit"
+  className="w-full bg-primary cursor-pointer lg:text-[20px] text-mobile text-white py-2 px-4 poppins transition-colors duration-300 ease-in-out hover:bg-[#69b5ad] hover:shadow-md"
+>
+  SUBMIT
+</button>
+
     </form>
   );
 };

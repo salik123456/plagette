@@ -25,12 +25,13 @@ const BrochureForm = () => {
         className="w-full border border-[#1E2739] lg:text-[20px] text-mobile px-4 py-3 2xl:py-4 mb-5"
         required
       />
-      <button
-        type="submit"
-        className="bg-primary cursor-pointer text-mobile lg:text-[20px] text-white w-full py-3  "
-      >
-        DOWNLOAD
-      </button>
+    <button
+  type="submit"
+  className="bg-primary cursor-pointer text-mobile lg:text-[20px] text-white w-full py-3 transition-colors duration-300 ease-in-out hover:bg-[#69b5ad] hover:shadow-md"
+>
+  DOWNLOAD
+</button>
+
     </form>
   );
 };
